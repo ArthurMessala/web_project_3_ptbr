@@ -1,0 +1,17 @@
+.header {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.logo {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 2.13rem;
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .logo {
+    width: 12.5rem;
+    height: 3.24075rem;
+  }
+}
