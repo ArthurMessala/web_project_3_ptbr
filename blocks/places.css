@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: start; /* Adicionando esta linha */
 }
 .section__title-place {
   grid-area: titulo;
@@ -98,12 +99,18 @@
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 40px;
   grid-gap: 0;
+  max-width: 100%; /* Adicione esta linha */
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .place {
-    margin: 2.88rem 1.5rem;
+    margin: 4rem 1.5rem;
   }
+
+  .place:last-child {
+    margin-top: 15rem;
+  }
+
   .section__title-place {
     width: 21.25rem;
     font-size: 2.625rem;
@@ -124,7 +131,7 @@
   }
   .section__button-place {
     width: 19.6875rem;
-    margin: 0 0.81rem 0 0;
+    margin: 3.81rem 0.81rem 0 0;
   }
 }
 
