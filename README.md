@@ -1,5 +1,12 @@
 # web_project_homeland
 
-Meu primeiro projeto responsivo utilizando HTML e CSS
+Com esse projeto tenho o intuito de melhorar minhas habilidades no desenvolvimento de página 100% responsivás.
 
-Futuramente pretendo implementar JavaScript
+Tecnologias:
+
+- HTML
+- CSS
+
+Página no GitHub Pages: https://arthurmessala.github.io/web_project_homeland/
+
+Futuramente pretendo implementar JavaScript no projeto
