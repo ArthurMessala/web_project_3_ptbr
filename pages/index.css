@@ -1,0 +1,39 @@
+@import url(/vendor/normalize.css);
+@import url(../vendor/inter.css);
+@import url(../blocks/titles.css);
+@import url(../blocks/header.css);
+@import url(../blocks/lead.css);
+@import url(../blocks/intro.css);
+@import url(../blocks/photo-grid.css);
+@import url(../blocks/places.css);
+@import url(../blocks/cover.css);
+@import url(../blocks/footer.css);
+
+.page {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 80rem;
+}
+
+.body {
+  margin: 0;
+  padding: 0;
+  background-color: #2a2c2f;
+}
+
+.content {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .page {
+    max-width: 48rem;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .page {
+    max-width: 20rem;
+  }
+}

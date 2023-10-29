@@ -6,7 +6,7 @@
   align-items: center;
   align-content: start; /* Adicionando esta linha */
 }
-.section__title-place {
+.place__section-title {
   grid-area: titulo;
   width: 30rem;
   color: #fff;
@@ -22,7 +22,7 @@
   margin-top: 3rem;
 }
 
-.section__button-place {
+.place__section-button {
   width: 22.1875rem;
   margin: 3rem 0 0;
   grid-area: botao;
@@ -40,7 +40,7 @@
   border-radius: 0.25rem;
   background: #0278fe;
 }
-.section__button-place:hover {
+.place__section-button:hover {
   background-color: #0063d2;
 }
 .place__author {
@@ -101,7 +101,9 @@
   grid-gap: 0;
   max-width: 100%; /* Adicione esta linha */
 }
-
+.kiev {
+  width: 29rem;
+}
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .place {
     margin: 4rem 1.5rem;
@@ -110,12 +112,12 @@
   .place:last-child {
     margin-top: 15rem;
   }
-
-  .section__title-place {
+  .place__section-title {
     width: 21.25rem;
     font-size: 2.625rem;
     line-height: 2.875rem;
   }
+
   .place__about {
     height: 21.75rem;
     padding: 0;
@@ -129,7 +131,7 @@
     height: 21.25rem;
     margin-right: 1.75rem;
   }
-  .section__button-place {
+  .place__section-button {
     width: 19.6875rem;
     margin: 3.81rem 0.81rem 0 0;
   }
@@ -143,7 +145,7 @@
     max-width: 100vw;
   }
 
-  .section__title-place {
+  .place__section-title {
     width: 18rem;
     margin: 0 0 1.88rem;
     font-size: 2rem;
@@ -166,7 +168,7 @@
     height: 20rem;
     margin: 1.88rem 0 0;
   }
-  .section__button-place {
+  .place__section-button {
     justify-self: start;
     margin: 0 0 2.31rem;
     width: 100%;

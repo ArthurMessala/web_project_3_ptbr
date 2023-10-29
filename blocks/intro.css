@@ -6,14 +6,14 @@
   margin-left: 20%;
 }
 
-.section__title-intro {
+.intro__section-title {
   width: 51.75rem;
   margin: 0 0 4.69rem;
   font-size: 3.375rem;
   line-height: 3.625rem; /* 107.407% */
 }
 
-.section__subtitle-intro {
+.intro__section-subtitle {
   width: 46rem;
   margin: 0 0 0.56rem;
   font-size: 1.5rem;
@@ -49,11 +49,11 @@
     align-items: center;
     margin: unset;
   }
-  .section__title-intro {
+  .intro__section-title {
     width: 44.1875rem;
     margin-bottom: 3.62rem;
   }
-  .section__subtitle-intro {
+  .intro__section-subtitle {
     width: 44.1875rem;
   }
 }
@@ -62,13 +62,13 @@
     align-items: center;
     margin: unset;
   }
-  .section__title-intro {
+  .intro__section-title {
     max-width: 100%;
     width: 18rem;
     font-size: 2rem;
     line-height: 2.1875rem;
   }
-  .section__subtitle-intro {
+  .intro__section-subtitle {
     max-width: 100%;
     width: 18rem;
     font-size: 1.5rem;

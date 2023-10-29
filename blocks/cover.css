@@ -26,7 +26,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.section__title-cover {
+.cover__section-title {
   margin: 0;
   max-width: 656px;
   text-align: center;
@@ -36,7 +36,7 @@
   line-height: 76px;
 }
 
-.section__subtitle-cover {
+.cover__section-subtitle {
   margin: 0;
   max-width: 280px;
   text-align: center;
@@ -68,11 +68,11 @@
   .cover {
     max-width: 100%;
   }
-  .section__title-cover {
+  .cover__section-title {
     font-size: 32px;
     line-height: 1.1;
   }
-  .section__subtitle-cover {
+  .cover__section-subtitle {
     font-size: 1.125rem;
     line-height: 1.375rem;
   }
@@ -81,11 +81,11 @@
   .cover {
     max-width: 100%;
   }
-  .section__title-cover {
+  .cover__section-title {
     font-size: 2rem;
     line-height: 2.1875rem;
   }
-  .section__subtitle-cover {
+  .cover__section-subtitle {
     margin: 0 1.25rem;
     font-size: 0.875rem;
     line-height: 1rem;
